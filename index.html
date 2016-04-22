@@ -6,24 +6,61 @@
 </head>
 
 <body>
+  <style>
+  div {
+    float: left;
+    width: 50%
+
+  }
+  /*this is a comment in css*/
+  h1 {
+    color: blue;
+  }
+  p {margin-top: 50px;
+  }
+  p, ul, ol {
+    color: green;
+  }
+  img {
+    width: 100%;
+  }
+  #heading /*select id in css met hashtag */ {
+    font-size: 50px;
+  }
+
+    .paragraph /*class is selected by a x */ {
+      font-style: italic;
+  }
+
+  p.paragraph.introduction.featured {
+    padding-left: 20 px;
+  }
+
+  div ul li { /*not attached but separete door space*/
+    background-color: red;
+  }
+  </style>
 <div>
-  <h1> This is an amazing page </h1>
+  <h1 id="heading"> This is an amazing page </h1>
   <!-- This starts an article -->
-  <p> Lorem ipsumfas;dfsjdsflfdl;sljlfjlds
+  <p class=paragraph introduction featured> Lorem ipsumfas;dfsjdsflfdl;sljlfjlds
     dsfjlkfadlsaklsaljkfdsjlsdfjlkdafdsflflkdlsda
     fdldfskdsflsdf </p>
+  <p class=paragraph > jbalkkjl;dajbl;ajgl;erjagelrgjea;lgjea;lgjeagdsds
+    sdgdlgsdlgjl;s; </p>
     <!--this ends an article -->
     <ul>
       <li> number one </li>
       <li> number two </li>
       <li> number three </li>
     </ul>
-    <ul>
+    <ol>
       <li> number one </li>
       <li> number two </li>
       <li> number three </li>
-    </ul>
+    </ol>
 </div>
+
 <img src="wereldbol.jpg"/>
 <div>
 
