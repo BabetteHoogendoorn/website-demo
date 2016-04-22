@@ -1,0 +1,32 @@
+div {
+  float: left;
+  width: 50%
+
+}
+/*this is a comment in css*/
+h1 {
+  color: blue;
+}
+p {margin-top: 50px;
+}
+p, ul, ol {
+  color: green;
+}
+img {
+  width: 100%;
+}
+#heading /*select id in css met hashtag */ {
+  font-size: 50px;
+}
+
+  .paragraph /*class is selected by a x */ {
+    font-style: italic;
+}
+
+p.paragraph.introduction.featured {
+  padding-left: 20 px;
+}
+
+div ul li { /*not attached but separete door space*/
+  background-color: red;
+}
